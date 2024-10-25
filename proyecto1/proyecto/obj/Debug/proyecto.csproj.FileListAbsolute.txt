@@ -23,3 +23,15 @@ C:\Users\CC1_PC03\Downloads\proyecto1\proyecto\obj\Debug\proyecto.pdb
 C:\Users\CC1_PC03\Downloads\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO02.resources
 C:\Users\CC1_PC03\Downloads\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO04.resources
 C:\Users\CC1_PC03\Downloads\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO03.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO01.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO02.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO03.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.DESARROLLO04.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.EncuestaSatisfaccion.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.MainForm.resources
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.csproj.GenerateResource.Cache
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.exe
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\bin\Debug\proyecto.exe
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\bin\Debug\proyecto.pdb
+C:\Users\CC1_PC09\PTSD-EFPDS\proyecto1\proyecto\obj\Debug\proyecto.pdb

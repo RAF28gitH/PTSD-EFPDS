@@ -9,6 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace proyecto
 {
@@ -27,6 +28,11 @@ namespace proyecto
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void LinkLabel1LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			
 		}
 	}
 }

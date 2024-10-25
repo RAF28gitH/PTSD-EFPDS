@@ -97,6 +97,9 @@
     <EmbeddedResource Include="DESARROLLO04.resx">
       <DependentUpon>DESARROLLO04.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EncuestaSatisfaccion.resx">
+      <DependentUpon>EncuestaSatisfaccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -36,12 +36,29 @@ namespace proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+			this.SuspendLayout();
+			// 
+			// linkLabel1
+			// 
+			this.linkLabel1.Location = new System.Drawing.Point(55, 118);
+			this.linkLabel1.Name = "linkLabel1";
+			this.linkLabel1.Size = new System.Drawing.Size(131, 23);
+			this.linkLabel1.TabIndex = 0;
+			this.linkLabel1.TabStop = true;
+			this.linkLabel1.Text = "Encuesta de satisfacción";
+			this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1LinkClicked);
 			// 
 			// EncuestaSatisfaccion
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "EncuestaSatisfaccion";
+			this.ClientSize = new System.Drawing.Size(278, 261);
+			this.Controls.Add(this.linkLabel1);
 			this.Name = "EncuestaSatisfaccion";
+			this.Text = "EncuestaSatisfaccion";
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.LinkLabel linkLabel1;
 	}
 }
