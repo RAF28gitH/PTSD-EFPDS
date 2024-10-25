@@ -41,9 +41,10 @@ namespace proyecto
 			// 
 			// linkLabel1
 			// 
-			this.linkLabel1.Location = new System.Drawing.Point(55, 118);
+			this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.linkLabel1.Location = new System.Drawing.Point(12, 112);
 			this.linkLabel1.Name = "linkLabel1";
-			this.linkLabel1.Size = new System.Drawing.Size(131, 23);
+			this.linkLabel1.Size = new System.Drawing.Size(261, 36);
 			this.linkLabel1.TabIndex = 0;
 			this.linkLabel1.TabStop = true;
 			this.linkLabel1.Text = "Encuesta de satisfacción";
@@ -53,7 +54,7 @@ namespace proyecto
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(278, 261);
+			this.ClientSize = new System.Drawing.Size(304, 261);
 			this.Controls.Add(this.linkLabel1);
 			this.Name = "EncuestaSatisfaccion";
 			this.Text = "EncuestaSatisfaccion";
