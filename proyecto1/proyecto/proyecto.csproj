@@ -85,6 +85,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CIERRE.resx">
+      <DependentUpon>CIERRE.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DESARROLLO01.resx">
       <DependentUpon>DESARROLLO01.cs</DependentUpon>
     </EmbeddedResource>
