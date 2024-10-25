@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Información: La figura principal parece ser la de un santo o un monje, vestido con una túnica y con una expresión de devoción o meditación, con los brazos cruzados sobre su pecho. El halo alrededor de su cabeza indica que es una figura sagrada o santa en la iconografía cristiana.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8611,5 +8614,8 @@
         iK5sGl7gsQvEexd4Sh2WG1EIHkpird2wFjnhIxD57AoDYRUxhb1L9GyVFwjUUxjVxaRb4MtUeHiCkbWe
         Jal0xUcirCoHSOfhTxiJP//Z
 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Información: Los ojos cerrados de la Virgen indican un estado de oración o contemplación profunda, en el que está conectada espiritualmente con Dios. Refleja su papel como intercesora, orando por los fieles ante Dios.</value>
   </data>
 </root>

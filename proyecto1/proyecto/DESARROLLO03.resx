@@ -5148,6 +5148,10 @@
         kJp1ogAxXVbMNJqwCmXUaTIUUFKlygb9RiyYO1HANVFu3AYUsRUR5lEDDe3OCKf/2Q==
 </value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Información: Representa a Jesucristo en actitud de oración, con las manos juntas y una expresión de serenidad en su rostro. La figura de Cristo con las manos juntas es un símbolo de oración, humildad y devoción, y es una representación común en el cristianismo.
+</value>
+  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkV
@@ -8835,5 +8839,8 @@
         4NMAb4frB9MsOfDgwAUuNKAcoEKf2zT4gZfWLaTpF93ErtkHk5GzrlPrEsLMK/OG8k1jv3nwAoOxXGje
         DXxkM0e/GbSgEy0UVRz/2Q==
 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Información: La imagen es una representación artística de San Miguel Arcángel, hecho con varios colores. Una imagen de San Miguel muy colorida suele representar la vitalidad y la energía del arcángel. San Miguel es conocido como un protector y defensor contra el mal. </value>
   </data>
 </root>

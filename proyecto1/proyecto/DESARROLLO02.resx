@@ -5462,6 +5462,9 @@
         YTFXsYUC28gSq0uLluOlTz+x9RXVjfD7iF1AZbU9QXBtUslRPEQNxU+ScwGXAHzgh//Z
 </value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Información: La imagen parece representar a un ángel o un santo guerrero, posiblemente San Miguel Arcángel. San Miguel es frecuentemente representado como un arcángel con armadura, llevando una espada o lanza, simbolizando su papel como protector y líder en la batalla contra las fuerzas del mal.</value>
+  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkV
@@ -8201,5 +8204,8 @@
         EGVCnR4T767iqCWpCUqIALi4oBGiaqXslE8W5hoSglOiII9wLGgmVlcL5EQGG4VFVCIq7YxWXEN1xxEW
         XluN8pUiAU//2Q==
 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Información: La imagen representa a la Virgen del Carmen, una advocación mariana muy popular en la Iglesia Católica. La Virgen del Carmen es conocida por su manto azul y dorado, que simboliza la protección divina.</value>
   </data>
 </root>

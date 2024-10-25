@@ -79,9 +79,11 @@ namespace proyecto
 			// 
 			this.label1.Location = new System.Drawing.Point(148, 263);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(292, 76);
 			this.label1.TabIndex = 3;
-			this.label1.Text = "Información:";
+			this.label1.Text = "Información: El tapete de la imagen representa a San Miguel\r\nArcángel,santo patro" +
+			"no de Uriangato, al lado\r\ndel templo de Uriangato. Representa la fe del\r\npueblo\r" +
+			"\n";
 			// 
 			// DESARROLLO01
 			// 
