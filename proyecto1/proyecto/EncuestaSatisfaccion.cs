@@ -9,6 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace proyecto
 {
@@ -27,6 +28,11 @@ namespace proyecto
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			System.Diagnostics.Process.Start("https://docs.google.com/forms/d/e/1FAIpQLScVCKmjmhbhXLvzQo13xDkqbDruY2ivGKUxcHi8IE8cziMZCw/viewform?usp=sf_link");
 		}
 	}
 }

@@ -28,5 +28,11 @@ namespace proyecto
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			CIERRE form10 = new CIERRE();
+			form10.Show();			
+		}
 	}
 }
