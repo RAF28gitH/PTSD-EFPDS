@@ -67,7 +67,7 @@ namespace proyecto
 		{
 			DESARROLLO01 DESARROLLO01 =new DESARROLLO01();
 			DESARROLLO01.Show();
-				Hide();
+			Close();
 		}
 	}
 }

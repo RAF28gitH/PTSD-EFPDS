@@ -61,7 +61,7 @@ namespace proyecto
 		{
 			DESARROLLO02 DESARROLLO02 =new	DESARROLLO02();
 			DESARROLLO02.Show();
-			Hide();
+			Close();
 		}
 	}
 }
