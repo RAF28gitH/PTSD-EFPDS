@@ -64,5 +64,23 @@ namespace proyecto
         		f.Close();
     		}
 		}
+		
+		bool traducirTexto = true;
+		void Button3Click(object sender, EventArgs e)
+		{
+			string textoOriginal = "Información: El tapete de aserrín en la imagen representa a San Miguel Arcángel, santo patrón de Uriangato, junto al templo de Uriangato. Representa la fe del pueblo.";
+    		string textoAmostrar;
+
+    		if (traducirTexto)
+    		{
+        		textoAmostrar = "Information: The sawdust rug in the image represents Saint Michael the Archangel, the patron saint of Uriangato, next to the Uriangato temple. It represents the faith of the people.";
+    		}
+    		else
+    		{
+        		textoAmostrar = textoOriginal;
+    		}
+    		label1.Text = textoAmostrar;
+    		traducirTexto=!traducirTexto;
+		}
 	}
 }
