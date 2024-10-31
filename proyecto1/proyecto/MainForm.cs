@@ -32,8 +32,30 @@ namespace proyecto
 		
 		void Button1Click(object sender, EventArgs e)
 		{
+			CFE();
 			DESARROLLO01 form2 = new DESARROLLO01();
 			form2.Show();
+			Hide();
+		}
+		void CFE()
+		{
+    		Form mf = Application.OpenForms["MainForm"];
+    		List<Form> lfc = new List<Form>();
+    		
+    		foreach (Form f in Application.OpenForms)
+    		{
+        		if (f == mf)
+        		{
+            		continue;
+        		}
+
+        		lfc.Add(f);
+    		}
+    		
+    		foreach (Form f in lfc)
+    		{
+        		f.Close();
+    		}
 		}
 	}
 }
