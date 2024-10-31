@@ -99,7 +99,7 @@ namespace proyecto
 			// 
 			// linkLabel1
 			// 
-			this.linkLabel1.Location = new System.Drawing.Point(27, 61);
+			this.linkLabel1.Location = new System.Drawing.Point(27, 77);
 			this.linkLabel1.Name = "linkLabel1";
 			this.linkLabel1.Size = new System.Drawing.Size(100, 23);
 			this.linkLabel1.TabIndex = 3;

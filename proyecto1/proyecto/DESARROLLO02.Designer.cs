@@ -45,6 +45,7 @@ namespace proyecto
 			this.label2 = new System.Windows.Forms.Label();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.label3 = new System.Windows.Forms.Label();
+			this.button3 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -74,9 +75,9 @@ namespace proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(28, 262);
+			this.label1.Location = new System.Drawing.Point(28, 253);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(160, 91);
+			this.label1.Size = new System.Drawing.Size(160, 100);
 			this.label1.TabIndex = 3;
 			this.label1.Text = "Información: La imagen muestra una representación de la Virgen de Guadalupe, a me" +
 			"nudo considerada un símbolo de fe e identidad para muchas personas en México y A" +
@@ -85,7 +86,7 @@ namespace proyecto
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(28, 82);
+			this.pictureBox1.Location = new System.Drawing.Point(28, 73);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(160, 177);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -107,14 +108,14 @@ namespace proyecto
 			// 
 			this.label2.Location = new System.Drawing.Point(278, 262);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(160, 156);
+			this.label2.Size = new System.Drawing.Size(168, 156);
 			this.label2.TabIndex = 5;
 			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// pictureBox3
 			// 
 			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-			this.pictureBox3.Location = new System.Drawing.Point(536, 82);
+			this.pictureBox3.Location = new System.Drawing.Point(536, 75);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(160, 177);
 			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -123,11 +124,22 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(536, 262);
+			this.label3.Location = new System.Drawing.Point(536, 255);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(183, 91);
+			this.label3.Size = new System.Drawing.Size(183, 98);
 			this.label3.TabIndex = 7;
 			this.label3.Text = resources.GetString("label3.Text");
+			// 
+			// button3
+			// 
+			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.Location = new System.Drawing.Point(644, 21);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(75, 55);
+			this.button3.TabIndex = 9;
+			this.button3.Text = "traducir";
+			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// DESARROLLO02
 			// 
@@ -136,6 +148,7 @@ namespace proyecto
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(731, 429);
+			this.Controls.Add(this.button3);
 			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.pictureBox2);
@@ -151,6 +164,7 @@ namespace proyecto
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.Label label2;
