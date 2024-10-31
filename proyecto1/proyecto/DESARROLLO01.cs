@@ -9,6 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace proyecto
 {
@@ -32,7 +33,36 @@ namespace proyecto
 		void Button2Click(object sender, EventArgs e)
 		{
 			DESARROLLO02 form3 = new DESARROLLO02();
-			form3.Show();			
+			form3.Show();		
+        		Hide();	
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{	
+			CFE();
+			MainForm MainForm =new MainForm();
+			MainForm.Show();
+			Close();
+		}
+		void CFE()
+		{
+    		Form mf = Application.OpenForms["MainForm"];
+    		List<Form> lfc = new List<Form>();
+    		
+    		foreach (Form f in Application.OpenForms)
+    		{
+        		if (f == mf)
+        		{
+            		continue;
+        		}
+
+        		lfc.Add(f);
+    		}
+    		
+    		foreach (Form f in lfc)
+    		{
+        		f.Close();
+    		}
 		}
 	}
 }
