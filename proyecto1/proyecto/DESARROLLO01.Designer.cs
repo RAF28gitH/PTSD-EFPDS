@@ -80,9 +80,11 @@ namespace proyecto
 			// 
 			this.label1.Location = new System.Drawing.Point(148, 263);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(426, 55);
 			this.label1.TabIndex = 3;
-			this.label1.Text = "Información:";
+			this.label1.Text = "Información: El tapete de aserrín en la imagen representa a San Miguel Arcángel, " +
+			"santo patrón de Uriangato, junto al templo de Uriangato. Representa la fe del pu" +
+			"eblo.\"\r\n ";
 			// 
 			// DESARROLLO01
 			// 

@@ -74,11 +74,13 @@ namespace proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(76, 276);
+			this.label1.Location = new System.Drawing.Point(28, 262);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(160, 91);
 			this.label1.TabIndex = 3;
-			this.label1.Text = "Información:";
+			this.label1.Text = "Información: La imagen muestra una representación de la Virgen de Guadalupe, a me" +
+			"nudo considerada un símbolo de fe e identidad para muchas personas en México y A" +
+			"mérica Latina. ";
 			// 
 			// pictureBox1
 			// 
@@ -103,11 +105,11 @@ namespace proyecto
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(326, 276);
+			this.label2.Location = new System.Drawing.Point(278, 262);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(160, 156);
 			this.label2.TabIndex = 5;
-			this.label2.Text = "Información:";
+			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// pictureBox3
 			// 
@@ -121,11 +123,11 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(584, 276);
+			this.label3.Location = new System.Drawing.Point(536, 262);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(183, 91);
 			this.label3.TabIndex = 7;
-			this.label3.Text = "Información:";
+			this.label3.Text = resources.GetString("label3.Text");
 			// 
 			// DESARROLLO02
 			// 

@@ -52,6 +52,7 @@ namespace proyecto
 			// 
 			// button1
 			// 
+			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.Location = new System.Drawing.Point(12, 356);
 			this.button1.Name = "button1";
@@ -63,6 +64,7 @@ namespace proyecto
 			// 
 			// button2
 			// 
+			this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button2.Location = new System.Drawing.Point(652, 356);
 			this.button2.Name = "button2";
@@ -74,11 +76,12 @@ namespace proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(76, 276);
+			this.label1.Location = new System.Drawing.Point(28, 262);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(160, 59);
 			this.label1.TabIndex = 3;
-			this.label1.Text = "Información:";
+			this.label1.Text = "Información: La imagen es una representación artística de Jesucristo, una figura " +
+			"central en la fe cristiana.";
 			// 
 			// pictureBox1
 			// 
@@ -102,11 +105,11 @@ namespace proyecto
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(326, 276);
+			this.label2.Location = new System.Drawing.Point(278, 276);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(160, 144);
 			this.label2.TabIndex = 5;
-			this.label2.Text = "Información:";
+			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// pictureBox3
 			// 
@@ -120,11 +123,11 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(584, 276);
+			this.label3.Location = new System.Drawing.Point(536, 262);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(208, 103);
 			this.label3.TabIndex = 7;
-			this.label3.Text = "Información:";
+			this.label3.Text = resources.GetString("label3.Text");
 			// 
 			// DESARROLLO03
 			// 
