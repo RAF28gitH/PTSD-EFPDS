@@ -9,6 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace proyecto
 {
@@ -40,6 +41,24 @@ namespace proyecto
 			DESARROLLO04 DESARROLLO04 = new DESARROLLO04();
 			DESARROLLO04.Show();
 			Close();
+		}
+		
+		void LinkLabel1LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			
+			System.Diagnostics.Process.Start("https://www.instagram.com/laoctavanoche/?hl=es");
+		}
+		
+		void LinkLabel2LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+
+			System.Diagnostics.Process.Start("https://www.facebook.com/laoctavanoche/?locale=es_LA");
+		}
+		
+		void LinkLabel3LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+
+			System.Diagnostics.Process.Start("https://es.wikipedia.org/wiki/La_Octava_Noche");			
 		}
 	}
 }
