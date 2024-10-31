@@ -74,16 +74,18 @@ namespace proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(76, 276);
+			this.label1.Location = new System.Drawing.Point(12, 202);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(204, 85);
 			this.label1.TabIndex = 3;
-			this.label1.Text = "Información:";
+			this.label1.Text = "Información: La imagen muestra una representación de la Virgen de Guadalupe, a me" +
+			"nudo considerada un símbolo de fe e identidad para muchas personas en México y A" +
+			"mérica Latina. ";
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(28, 82);
+			this.pictureBox1.Location = new System.Drawing.Point(27, 12);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(160, 177);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,7 +95,7 @@ namespace proyecto
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(278, 82);
+			this.pictureBox2.Location = new System.Drawing.Point(276, 12);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(160, 177);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,16 +105,16 @@ namespace proyecto
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(326, 276);
+			this.label2.Location = new System.Drawing.Point(257, 192);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(208, 142);
 			this.label2.TabIndex = 5;
-			this.label2.Text = "Información:";
+			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// pictureBox3
 			// 
 			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-			this.pictureBox3.Location = new System.Drawing.Point(536, 82);
+			this.pictureBox3.Location = new System.Drawing.Point(524, 12);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(160, 177);
 			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,11 +123,11 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(584, 276);
+			this.label3.Location = new System.Drawing.Point(524, 202);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(179, 104);
 			this.label3.TabIndex = 7;
-			this.label3.Text = "Información:";
+			this.label3.Text = resources.GetString("label3.Text");
 			// 
 			// DESARROLLO02
 			// 
