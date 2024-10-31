@@ -34,7 +34,7 @@ namespace proyecto
 		{
 			DESARROLLO02 form3 = new DESARROLLO02();
 			form3.Show();		
-        		Hide();	
+        	Close();
 		}
 		
 		void Button1Click(object sender, EventArgs e)
